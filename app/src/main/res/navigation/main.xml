@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.soccer.dash.StartFragment"
+        android:label="StartFragment" />
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.soccer.dash.ScoreFragment"
+        android:label="ScoreFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.soccer.dash.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.soccer.dash.GameFragment"
+        android:label="GameFragment" />
+</navigation>
